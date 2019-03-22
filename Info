@@ -1,0 +1,14 @@
+Topic : Crowd Management
+
+with in these project we are going to implement combination of machine learning ,Opencv and GSM module.
+At first Our idea is to manage crowd on the basis of their count and sending this vital information to higher authorities.
+for these we are going to implement machine learning as well as opencv Models.
+we are going to track faces of people and from that we are going to get the amount of people present in given area 
+given area corresponds to the area which comes under the given camera.
+Now here from given camera if we track the no of people present in given area we can add threshold for them
+if the amount of people in the given area is greater than respective amount then we are going to generate heat map for that given area.
+Now the idea of heat map is there because it can be understood easily by people as well as authorities.
+if the amount of people in the given area is in moderate quantity then map is green,
+after that if the amout of people in given area is greater than moderate than map turns into yellow
+if it is present in excess amount which results in quarrel than we are going to turn it red.
+by these both authorities as well as common people came to know that where we should go  by that path or not or whether there is need of us to visit there or not.
